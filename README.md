@@ -1,4 +1,4 @@
-# Yutani.Render.PathTracing
+# Yutani.Render.PathTracing v0.1
 A 1:1 Object Pascal port of [NarcisCalin's N-Ray](https://github.com/NarcisCalin/N-Ray) C++ path tracing sample, reworked to fit the Yutani sandbox architecture. It runs the entire path tracer on the GPU via an OpenGL 4.3 compute shader   
           
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/LaMitaOne/Yutani.Render.PathTracing)    
