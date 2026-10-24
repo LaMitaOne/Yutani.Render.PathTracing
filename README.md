@@ -4,7 +4,7 @@ A 1:1 Object Pascal port of [NarcisCalin's N-Ray](https://github.com/NarcisCalin
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/LaMitaOne/Yutani.Render.PathTracing)    
         
 <img width="963" height="497" alt="Unbenannt" src="https://github.com/user-attachments/assets/c5f169f6-9705-4d7c-8767-0c52ff8dcb5a" />
-ok 12fps sounds not fast but thats on ryzen4500u igpu :P     
+ok 12fps sounds not fast but thats on ryzen4500u igpu :P (my rtx2060s is doing around 120fps)     
     
     This is **not** a CPU path tracer. There's no Embree binding, no software BVH traversal on the CPU, no fallback. The GLSL compute shader (`shaders/ptShader.comp`) is byte-for-byte identical to the upstream original — Delphi just feeds it data and pulls pixels back.   
     
